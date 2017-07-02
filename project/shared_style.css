@@ -54,8 +54,12 @@ nav ul li a:hover{
         padding: 14px 6px;
     }
 
-    .container{
+    .container footer {
         width: 98%;
+    }
+    
+    button{
+        width: 100%;
     }
 }
 
@@ -100,4 +104,33 @@ nav ul li a:hover{
     content: "";
     display: table;
     clear: both;
+}
+
+section{
+    background-color: #eeeeee;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+p{
+    text-align: justify;
+    font-size: 17px;
+}
+
+footer{
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 2px;
+    padding-right: 2px;
+    box-shadow: 0 2px 4px 3px rgba(128, 128, 128, 0.5);
+}
+
+footer nav{
+    height: 40px;
+    background-color: #006B9C;
+    padding: 10px 15px;
+    color:#ffffff;
 }
